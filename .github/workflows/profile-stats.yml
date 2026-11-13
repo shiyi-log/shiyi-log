@@ -1,0 +1,44 @@
+name: 更新主页统计
+
+on:
+  schedule:
+    # 北京时间每天 08:17；GitHub 定时任务可能延迟运行。
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_profile_stats.py
+      - .github/workflows/profile-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 检出主页仓库
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: 生成中文统计图
+        env:
+          GH_TOKEN: ${{ github.token }}
+          USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/update_profile_stats.py --username "$USERNAME" --output-dir assets
+
+      - name: 保存统计更新
+        run: |
+          git add -- assets/github-stats-light.svg assets/github-stats-dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: update profile statistics'
+          git push

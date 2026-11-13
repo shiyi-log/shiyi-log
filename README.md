@@ -34,9 +34,10 @@
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shiyi-log&theme=github" alt="shiyi-log 的 GitHub 统计概览" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shiyi-log&theme=github" alt="shiyi-log 的仓库语言分布" />
-<img width="49%" src="https://streak-stats.demolab.com?user=shiyi-log&theme=default&hide_border=true" alt="shiyi-log 的连续贡献统计" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-stats-light.svg" />
+  <img width="100%" src="./assets/github-stats-light.svg" alt="十一的 GitHub 统计：过去一年贡献、公开仓库、最长连续贡献、贡献日历与仓库主语言分布" />
+</picture>
 
 </div>
