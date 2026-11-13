@@ -2,26 +2,26 @@
 
 # 十一 · shiyi-log
 
-**Independent developer building practical tools for self-hosting, cloud operations, and developer workflows.**
+**独立开发者，关注自托管服务、云端运维与开发效率工具。**
 
-[GitHub](https://github.com/shiyi-log) · [Repositories](https://github.com/shiyi-log?tab=repositories)
+[GitHub 主页](https://github.com/shiyi-log) · [全部仓库](https://github.com/shiyi-log?tab=repositories)
 
 </div>
 
-## About
+## 关于我
 
-I work across backend services and admin interfaces, with a focus on making infrastructure and release workflows easier to operate. Most of my projects start from a concrete operational problem and grow into tools that can be tested, deployed, and maintained.
+我主要开发后端服务与管理界面，关注如何让基础设施运维和软件发布流程更简单、更可靠。项目通常从实际问题出发，并尽量做到易于测试、部署和维护。
 
-## Selected projects
+## 项目展示
 
-| Project | Description | Stack |
+| 项目 | 简介 | 技术栈 |
 | --- | --- | --- |
-| [fuwu](https://github.com/shiyi-log/fuwu) | Release management for multiple software projects, with artifact validation, release channels, rollback, access control, and audit records. | Python, Django, Vue 3 |
-| [X-ray](https://github.com/shiyi-log/X-ray) | An independent X-ray management platform. | Python |
-| [duankou](https://github.com/shiyi-log/duankou) | Local port registration and monitoring tool. | Python |
-| [crypto-quant-terminal](https://github.com/shiyi-log/crypto-quant-terminal) | Quant research terminal integrating market data, a Vue interface, and Freqtrade. | Python, Vue, PostgreSQL |
+| [fuwu](https://github.com/shiyi-log/fuwu) | 面向多个软件项目的发行管理服务，支持制品校验、发行渠道、回滚、权限控制和审计记录。 | Python、Django、Vue 3 |
+| [X-ray](https://github.com/shiyi-log/X-ray) | 独立的 X-ray 管理平台。 | Python |
+| [duankou](https://github.com/shiyi-log/duankou) | 本地端口登记与监控工具。 | Python |
+| [crypto-quant-terminal](https://github.com/shiyi-log/crypto-quant-terminal) | 加密资产量化研究终端，集成行情数据、Vue 界面与 Freqtrade。 | Python、Vue、PostgreSQL |
 
-## Tools I use
+## 常用技术
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
@@ -30,13 +30,13 @@ I work across backend services and admin interfaces, with a focus on making infr
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
-## GitHub stats
+## GitHub 统计
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shiyi-log&theme=github" alt="GitHub profile summary for shiyi-log" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shiyi-log&theme=github" alt="shiyi-log 的 GitHub 统计概览" />
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shiyi-log&theme=github" alt="Languages across shiyi-log repositories" />
-<img width="49%" src="https://streak-stats.demolab.com?user=shiyi-log&theme=default&hide_border=true" alt="Contribution streak for shiyi-log" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shiyi-log&theme=github" alt="shiyi-log 的仓库语言分布" />
+<img width="49%" src="https://streak-stats.demolab.com?user=shiyi-log&theme=default&hide_border=true" alt="shiyi-log 的连续贡献统计" />
 
 </div>
